@@ -309,8 +309,8 @@ body{
     bottom: 0;
     padding: 2rem;
     width: 70%;
-    transition: transform 0.5s;
-    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
   }
   
   .navbar--item{
@@ -332,8 +332,8 @@ body{
   } 
   
   .show--item{
-
-    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
     box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
   }
 
